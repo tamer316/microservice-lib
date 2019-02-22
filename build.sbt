@@ -1,6 +1,6 @@
 name := "microservice-lib"
 organization := "dev.tamer"
-version := "1.0.0"
+version := "1.0.2"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
