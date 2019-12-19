@@ -5,7 +5,7 @@ libraryDependencies ++= {
   val akkaHttpLibV = "1.1.0"
   val akkaHttpSessionV = "0.5.2"
   val akkaHttpCorsV = "0.4.1"
-  val mongoLibV = "2.2.1"
+  val mongoLibV = "2.2.2"
   Seq(
     "ch.qos.logback" % "logback-classic" % "1.1.2",
     "org.clapper" %% "grizzled-slf4j" % "1.3.0",
