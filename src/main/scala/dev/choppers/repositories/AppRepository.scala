@@ -1,8 +1,8 @@
 package dev.choppers.repositories
 
 import javax.inject.Singleton
-
 import com.github.limansky.mongoquery.reactive._
+import dev.choppers.model.api.VerifiedAppProtocol.AppPermission
 import dev.choppers.model.persistence.AppEntity.AppEntity
 import dev.choppers.mongo.{MongoDB, Repository}
 import reactivemongo.bson._

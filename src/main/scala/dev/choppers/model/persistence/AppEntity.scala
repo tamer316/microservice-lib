@@ -7,6 +7,7 @@ object AppEntity {
   final case class AppEntity(_id: BSONObjectID = BSONObjectID.generate,
                              name: String,
                              apiKey: String,
-                             secret: String)
+                             secret: String,
+                             permissions: Set[String])
 
 }
